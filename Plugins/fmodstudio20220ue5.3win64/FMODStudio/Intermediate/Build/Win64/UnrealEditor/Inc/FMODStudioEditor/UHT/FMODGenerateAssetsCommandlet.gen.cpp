@@ -35,7 +35,6 @@ void EmptyLinkFunctionForGeneratedCodeFMODGenerateAssetsCommandlet() {}
 		(UObject* (*)())Z_Construct_UClass_UCommandlet,
 		(UObject* (*)())Z_Construct_UPackage__Script_FMODStudioEditor,
 	};
-	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODGenerateAssetsCommandlet_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODGenerateAssetsCommandlet_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
@@ -59,7 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODGenerateAssetsCommandlet() {}
 		0,
 		0,
 		0x000000A8u,
-		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODGenerateAssetsCommandlet_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODGenerateAssetsCommandlet_Statics::Class_MetaDataParams)
+		METADATA_PARAMS(Z_Construct_UClass_UFMODGenerateAssetsCommandlet_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODGenerateAssetsCommandlet_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UFMODGenerateAssetsCommandlet()
 	{
@@ -75,15 +74,15 @@ void EmptyLinkFunctionForGeneratedCodeFMODGenerateAssetsCommandlet() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODGenerateAssetsCommandlet);
 	UFMODGenerateAssetsCommandlet::~UFMODGenerateAssetsCommandlet() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODGenerateAssetsCommandlet, UFMODGenerateAssetsCommandlet::StaticClass, TEXT("UFMODGenerateAssetsCommandlet"), &Z_Registration_Info_UClass_UFMODGenerateAssetsCommandlet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODGenerateAssetsCommandlet), 2688087386U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODGenerateAssetsCommandlet, UFMODGenerateAssetsCommandlet::StaticClass, TEXT("UFMODGenerateAssetsCommandlet"), &Z_Registration_Info_UClass_UFMODGenerateAssetsCommandlet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODGenerateAssetsCommandlet), 3451826334U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_2960674164(TEXT("/Script/FMODStudioEditor"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_1915717068(TEXT("/Script/FMODStudioEditor"),
+		Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudio_Source_FMODStudioEditor_Classes_FMODGenerateAssetsCommandlet_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

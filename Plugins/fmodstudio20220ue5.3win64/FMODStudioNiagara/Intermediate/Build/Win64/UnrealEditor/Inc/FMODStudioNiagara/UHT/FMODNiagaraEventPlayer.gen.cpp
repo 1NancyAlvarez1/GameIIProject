@@ -69,7 +69,6 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 		(UObject* (*)())Z_Construct_UClass_UNiagaraDataInterface,
 		(UObject* (*)())Z_Construct_UPackage__Script_FMODStudioNiagara,
 	};
-	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::Class_MetaDataParams[] = {
 		{ "Category", "Audio" },
@@ -88,8 +87,8 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 		{ "ToolTip", "Reference to the audio asset to play" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_EventToPlay = { "EventToPlay", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODNiagaraEventPlayer, EventToPlay), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_EventToPlay_MetaData), Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_EventToPlay_MetaData) };
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_ParameterNames_Inner = { "ParameterNames", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_EventToPlay = { "EventToPlay", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UFMODNiagaraEventPlayer, EventToPlay), Z_Construct_UClass_UFMODEvent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_EventToPlay_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_EventToPlay_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_ParameterNames_Inner = { "ParameterNames", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_ParameterNames_MetaData[] = {
 		{ "Category", "Parameters" },
@@ -98,7 +97,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 		{ "ToolTip", "A set of parameter names that can be referenced via index when setting sound cue parameters on persistent audio" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_ParameterNames = { "ParameterNames", nullptr, (EPropertyFlags)0x0010000002020001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODNiagaraEventPlayer, ParameterNames), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_ParameterNames_MetaData), Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_ParameterNames_MetaData) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_ParameterNames = { "ParameterNames", nullptr, (EPropertyFlags)0x0010000002020001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UFMODNiagaraEventPlayer, ParameterNames), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_ParameterNames_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_ParameterNames_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bLimitPlaysPerTick_MetaData[] = {
 		{ "Category", "Audio" },
@@ -110,7 +109,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 	{
 		((UFMODNiagaraEventPlayer*)Obj)->bLimitPlaysPerTick = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bLimitPlaysPerTick = { "bLimitPlaysPerTick", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UFMODNiagaraEventPlayer), &Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bLimitPlaysPerTick_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bLimitPlaysPerTick_MetaData), Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bLimitPlaysPerTick_MetaData) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bLimitPlaysPerTick = { "bLimitPlaysPerTick", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UFMODNiagaraEventPlayer), &Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bLimitPlaysPerTick_SetBit, METADATA_PARAMS(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bLimitPlaysPerTick_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bLimitPlaysPerTick_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_MaxPlaysPerTick_MetaData[] = {
 		{ "Category", "Audio" },
@@ -122,7 +121,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 		{ "UIMin", "0" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_MaxPlaysPerTick = { "MaxPlaysPerTick", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODNiagaraEventPlayer, MaxPlaysPerTick), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_MaxPlaysPerTick_MetaData), Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_MaxPlaysPerTick_MetaData) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_MaxPlaysPerTick = { "MaxPlaysPerTick", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UFMODNiagaraEventPlayer, MaxPlaysPerTick), METADATA_PARAMS(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_MaxPlaysPerTick_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_MaxPlaysPerTick_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bStopWhenComponentIsDestroyed_MetaData[] = {
 		{ "Category", "Audio" },
@@ -135,7 +134,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 	{
 		((UFMODNiagaraEventPlayer*)Obj)->bStopWhenComponentIsDestroyed = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bStopWhenComponentIsDestroyed = { "bStopWhenComponentIsDestroyed", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UFMODNiagaraEventPlayer), &Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bStopWhenComponentIsDestroyed_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bStopWhenComponentIsDestroyed_MetaData), Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bStopWhenComponentIsDestroyed_MetaData) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bStopWhenComponentIsDestroyed = { "bStopWhenComponentIsDestroyed", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UFMODNiagaraEventPlayer), &Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bStopWhenComponentIsDestroyed_SetBit, METADATA_PARAMS(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bStopWhenComponentIsDestroyed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bStopWhenComponentIsDestroyed_MetaData)) };
 #if WITH_EDITORONLY_DATA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bOnlyActiveDuringGameplay_MetaData[] = {
@@ -149,7 +148,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 	{
 		((UFMODNiagaraEventPlayer*)Obj)->bOnlyActiveDuringGameplay = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bOnlyActiveDuringGameplay = { "bOnlyActiveDuringGameplay", nullptr, (EPropertyFlags)0x0010040800020001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UFMODNiagaraEventPlayer), &Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bOnlyActiveDuringGameplay_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bOnlyActiveDuringGameplay_MetaData), Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bOnlyActiveDuringGameplay_MetaData) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bOnlyActiveDuringGameplay = { "bOnlyActiveDuringGameplay", nullptr, (EPropertyFlags)0x0010040800020001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UFMODNiagaraEventPlayer), &Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bOnlyActiveDuringGameplay_SetBit, METADATA_PARAMS(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bOnlyActiveDuringGameplay_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_bOnlyActiveDuringGameplay_MetaData)) };
 #endif // WITH_EDITORONLY_DATA
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::NewProp_EventToPlay,
@@ -178,9 +177,8 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 		UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::PropPointers),
 		0,
 		0x001010A0u,
-		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::Class_MetaDataParams)
+		METADATA_PARAMS(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::Class_MetaDataParams))
 	};
-	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_UFMODNiagaraEventPlayer()
 	{
 		if (!Z_Registration_Info_UClass_UFMODNiagaraEventPlayer.OuterSingleton)
@@ -195,15 +193,15 @@ void EmptyLinkFunctionForGeneratedCodeFMODNiagaraEventPlayer() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODNiagaraEventPlayer);
 	UFMODNiagaraEventPlayer::~UFMODNiagaraEventPlayer() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODNiagaraEventPlayer, UFMODNiagaraEventPlayer::StaticClass, TEXT("UFMODNiagaraEventPlayer"), &Z_Registration_Info_UClass_UFMODNiagaraEventPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODNiagaraEventPlayer), 2121891106U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODNiagaraEventPlayer, UFMODNiagaraEventPlayer::StaticClass, TEXT("UFMODNiagaraEventPlayer"), &Z_Registration_Info_UClass_UFMODNiagaraEventPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODNiagaraEventPlayer), 1327126887U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_3982473413(TEXT("/Script/FMODStudioNiagara"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_2534951977(TEXT("/Script/FMODStudioNiagara"),
+		Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

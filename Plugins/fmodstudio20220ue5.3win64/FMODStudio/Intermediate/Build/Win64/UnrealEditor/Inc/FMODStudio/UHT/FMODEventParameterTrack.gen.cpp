@@ -44,7 +44,6 @@ void EmptyLinkFunctionForGeneratedCodeFMODEventParameterTrack() {}
 		(UObject* (*)())Z_Construct_UClass_UMovieSceneNameableTrack,
 		(UObject* (*)())Z_Construct_UPackage__Script_FMODStudio,
 	};
-	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEventParameterTrack_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODEventParameterTrack_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/** Handles manipulation of event parameters in a movie scene. */" },
@@ -53,7 +52,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODEventParameterTrack() {}
 		{ "ToolTip", "Handles manipulation of event parameters in a movie scene." },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UFMODEventParameterTrack_Statics::NewProp_Sections_Inner = { "Sections", nullptr, (EPropertyFlags)0x0000000000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UMovieSceneSection_NoRegister, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UFMODEventParameterTrack_Statics::NewProp_Sections_Inner = { "Sections", nullptr, (EPropertyFlags)0x0000000000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UClass_UMovieSceneSection_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFMODEventParameterTrack_Statics::NewProp_Sections_MetaData[] = {
 		{ "Comment", "/** The sections owned by this track. */" },
@@ -62,15 +61,14 @@ void EmptyLinkFunctionForGeneratedCodeFMODEventParameterTrack() {}
 		{ "ToolTip", "The sections owned by this track." },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UFMODEventParameterTrack_Statics::NewProp_Sections = { "Sections", nullptr, (EPropertyFlags)0x0040008000000008, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODEventParameterTrack, Sections), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEventParameterTrack_Statics::NewProp_Sections_MetaData), Z_Construct_UClass_UFMODEventParameterTrack_Statics::NewProp_Sections_MetaData) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UFMODEventParameterTrack_Statics::NewProp_Sections = { "Sections", nullptr, (EPropertyFlags)0x0040008000000008, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UFMODEventParameterTrack, Sections), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UFMODEventParameterTrack_Statics::NewProp_Sections_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEventParameterTrack_Statics::NewProp_Sections_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFMODEventParameterTrack_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODEventParameterTrack_Statics::NewProp_Sections_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODEventParameterTrack_Statics::NewProp_Sections,
 	};
 		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_UFMODEventParameterTrack_Statics::InterfaceParams[] = {
-			{ Z_Construct_UClass_UMovieSceneTrackTemplateProducer_NoRegister, (int32)VTABLE_OFFSET(UFMODEventParameterTrack, IMovieSceneTrackTemplateProducer), false },  // 3839488910
+			{ Z_Construct_UClass_UMovieSceneTrackTemplateProducer_NoRegister, (int32)VTABLE_OFFSET(UFMODEventParameterTrack, IMovieSceneTrackTemplateProducer), false },  // 2931163055
 		};
-	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEventParameterTrack_Statics::InterfaceParams) < 64);
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UFMODEventParameterTrack_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UFMODEventParameterTrack>::IsAbstract,
 	};
@@ -87,9 +85,8 @@ void EmptyLinkFunctionForGeneratedCodeFMODEventParameterTrack() {}
 		UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEventParameterTrack_Statics::PropPointers),
 		UE_ARRAY_COUNT(InterfaceParams),
 		0x00A800A0u,
-		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEventParameterTrack_Statics::Class_MetaDataParams), Z_Construct_UClass_UFMODEventParameterTrack_Statics::Class_MetaDataParams)
+		METADATA_PARAMS(Z_Construct_UClass_UFMODEventParameterTrack_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEventParameterTrack_Statics::Class_MetaDataParams))
 	};
-	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFMODEventParameterTrack_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_UFMODEventParameterTrack()
 	{
 		if (!Z_Registration_Info_UClass_UFMODEventParameterTrack.OuterSingleton)
@@ -104,15 +101,15 @@ void EmptyLinkFunctionForGeneratedCodeFMODEventParameterTrack() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UFMODEventParameterTrack);
 	UFMODEventParameterTrack::~UFMODEventParameterTrack() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODEventParameterTrack, UFMODEventParameterTrack::StaticClass, TEXT("UFMODEventParameterTrack"), &Z_Registration_Info_UClass_UFMODEventParameterTrack, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODEventParameterTrack), 2692123984U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODEventParameterTrack, UFMODEventParameterTrack::StaticClass, TEXT("UFMODEventParameterTrack"), &Z_Registration_Info_UClass_UFMODEventParameterTrack, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODEventParameterTrack), 2178871856U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_1685001874(TEXT("/Script/FMODStudio"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_3466804172(TEXT("/Script/FMODStudio"),
+		Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Alvar_GitHub_GitHubProj_GameIIProject_Plugins_fmodstudio20220ue5_3win64_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
